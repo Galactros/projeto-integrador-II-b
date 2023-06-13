@@ -3,7 +3,7 @@ name: Build-Docker
 on: [push]
 
 env:
-  IMAGE_NAME: galactros/integration-project-tomcat
+  IMAGE_NAME: galactros/integration-project-webapp
 
 jobs:
   build:

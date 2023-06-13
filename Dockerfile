@@ -1,1 +1,3 @@
-FROM tomcat:jre17
+FROM nginx:latest
+
+COPY app /usr/share/nginx/html
