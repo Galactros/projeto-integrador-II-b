@@ -1,5 +1,9 @@
 # Projeto Integrador II B
 
+## Acessando a Maquina na Azure
+
+    ssh -i caminho_da_chave_privada azureuser@ip_do_servidor
+
 ## Instalação do Docker
 
     sudo curl -fsSL https://get.docker.com -o get-docker.sh
@@ -21,8 +25,3 @@
         container_name: webapp
         ports:
           - "80:80"
-
-## Acessando a aplicação
-
-Basta acessar no navegador com o **IP** onde foi instalado a aplicação.
-**Ex:** localhost
